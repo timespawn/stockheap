@@ -158,8 +158,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
-  margin-right: 8px;
+  max-height: 64px;
+  margin-right: 16px;
 }
 
 .header .logo h1 {
@@ -683,14 +683,12 @@ section,
   font-weight: 400;
 }
 
-.hero .download-btn {
+.download-btn {
+  width: 256px;
   color: var(--contrast-default);
   background: color-mix(in srgb, var(--default-color), transparent 90%);
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 15px;
-  padding: 8px 30px 10px 30px;
-  border-radius: 3px;
+  padding: 0px 8px;
+  border-radius: 16px;
   transition: 0.5s;
   display: flex;
   align-items: center;
@@ -701,7 +699,7 @@ section,
   margin-left: 20px;
 }
 
-.hero .download-btn:hover {
+.download-btn:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
@@ -1498,11 +1496,4 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
