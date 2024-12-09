@@ -159,11 +159,11 @@ h6 {
 
 .header .logo img {
   max-height: 48px;
-  margin-right: 24px;
+  margin-right: 16px;
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
   font-weight: 600;
   color: var(--heading-color);
@@ -673,7 +673,7 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 60px;
 }
 
 .hero p {
@@ -722,9 +722,9 @@ section,
   left: 0;
   /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.5); */
   border-radius: 30px;
-  width: 350px;
-  margin-top: 0px;
-  margin-left: 80px;
+  width: 400px;
+  margin-top: -50px;
+  margin-left: 60px;
 }
 
 .hero .hero-img .phone-2 {
@@ -732,9 +732,13 @@ section,
   left: 0;
   /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.5); */
   border-radius: 30px;
-  width: 350px;
-  margin-top: 60px;
-  margin-left: -80px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: -60px;
+}
+
+.hero .flex-column {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -754,7 +758,7 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 48px;
   }
 
   .hero p {
@@ -766,6 +770,18 @@ section,
   .hero .download-btn {
     font-size: 14px;
     padding: 8px 20px 10px 20px;
+  }
+
+  .hero .hero-img .phone-1 {
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+
+  .hero .hero-img .phone-2 {
+    width: 300px;
+    margin-top: 80px;
+    margin-left: -40px;
   }
 }
 
@@ -1338,6 +1354,16 @@ section,
 @media (min-width: 992px) {
   .pricing .featured {
     transform: scale(1.15);
+  }
+}
+
+/*--------------------------------------------------------------
+# App badge section
+--------------------------------------------------------------*/
+
+@media (max-width: 575px) {
+  .download h1 {
+    font-size: 32px;
   }
 }
 
