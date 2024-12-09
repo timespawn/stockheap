@@ -1077,6 +1077,10 @@ section,
   text-align: center;
 }
 
+.gallery .glightbox img {
+  border-radius: 12px;
+}
+
 @media (min-width: 992px) {
   .gallery .swiper-wrapper {
     padding: 60px 0;
