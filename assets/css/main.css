@@ -204,7 +204,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: var(--nav-font);
     font-weight: 400;
     display: flex;
@@ -294,7 +294,7 @@ h6 {
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
-    line-height: 0;
+    line-height: 1.25;
     margin-right: 10px;
     cursor: pointer;
     transition: color 0.3s;
@@ -1215,6 +1215,12 @@ section,
   }
 }
 
+@media (max-width: 768px) {
+  .testimonials .testimonial-item p {
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
@@ -1426,8 +1432,8 @@ section,
 
 .faq .faq-container .faq-item .faq-toggle {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 26px;
+  right: 24px;
   font-size: 16px;
   line-height: 0;
   transition: 0.3s;
