@@ -84,7 +84,7 @@
   ======================================================== -->
 
   <script type="application/ld+json">
-    {
+    [{
       "@context": "https://schema.org",
       "@type": "MobileApplication",
       "name": "股積帳本 - 台股股票記帳",
@@ -98,9 +98,39 @@
       },
       "offers": {
         "@type": "Offer",
-        "price": 0
+        "price": 0,
+        "priceCurrency": "TWD"
       }
-    }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "有iOS版本嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>目前沒有，在可見的未來也沒有這個計畫，不好意思！
+            <br><br>
+            主要還是因為，全部都是我一人獨立利用下班時間做開發，實在不太可能負荷雙平台，開發功能的時間至少會是兩倍，bug大概也會是兩倍。
+            <br><br>
+            我很高興聽到一些iOS使用者來跟我敲碗，所以如果你也需要，還是可以讓我知道，可以幫助我評估值不值得投入時間！
+          </p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "有支援美股嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>目前沒有支援美股，不好意思！
+            <br><br>
+            由於支援美股，我會需要串接可靠的美股資料以及即時股價來源；同時，因為貨幣的不同，勢必需要重新設計部分介面和計算邏輯，才能讓台幣和美金的資產共存，同時保持整體方便使用。
+            <br><br>
+            總和來說，這不會是太輕鬆的更新，所以我要確定這個需求非常大，才會投入開發。
+          </p>"
+        }
+      }]
+    }]
     </script>
 </head>
 
